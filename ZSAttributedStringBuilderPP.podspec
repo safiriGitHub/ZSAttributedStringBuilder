@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "ZSAttributedStringBuilder"
+  s.name         = "ZSAttributedStringBuilderPP"
   s.version      = "0.0.1"
   s.summary      = "use iOS NSAttributedString is so easy!!"
 
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "9.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://zhangshuai@192.168.1.70:10101/r/iOS/cocoaPods/ZSAttributedStringBuilder.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/safiriGitHub/ZSAttributedStringBuilder.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
